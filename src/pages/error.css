@@ -1,0 +1,30 @@
+.error_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    margin-bottom: 0.75rem;
+}
+
+.error_img{
+    height: 50vh;
+    width: 70vw;
+}
+.header_error{
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 360px) {
+    
+    .header_error{
+        font-size: 1rem;
+        
+    }
+}
+@media screen and (max-width: 297px) {
+    
+    .header_error{
+        font-size: 1rem;
+        text-align: center
+    }
+}
